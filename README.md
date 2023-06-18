@@ -13,7 +13,7 @@ This is an eerie slavic horror school project I did in a week while trying to fi
 
 # Vodinoy
 
-![Itch.io Page](https://nerien.itch.io/vodinoy)](https://nerien.itch.io/vodinoy)
+[Itch.io Page](https://nerien.itch.io/vodinoy)](https://nerien.itch.io/vodinoy)
 
 Vodinoy is an eerie Slavic horror school project that I developed in just 5 days. It showcases various mechanics and features a range of monsters, each with unique behaviors. This downloadable game for Windows and Linux immerses you in a cursed swamp, where you must seek salvation amidst a myriad of terrifying creatures.
 
