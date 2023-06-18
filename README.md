@@ -75,6 +75,7 @@ If you would like to release this project under a different license or discuss a
 ## Acknowledgements
 
 I would like to express my gratitude to my programming subject's teacher Aleix Peiro Gallego who helped me out with the exponential spawning behaviour of the Vodinoys and some details.
+And also thank Ferran (https://github.com/ferranJS) for helping me format this README.
 
 ## Contact
 
