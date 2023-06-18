@@ -1,4 +1,9 @@
-![Vodinoy](https://imgur.com/DtkFzab.png)
+ 
+
+<img
+  src="[/path/to/img.jpg](https://imgur.com/DtkFzab.png)"
+
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 # Vodinoy
 Slavic Themed Horror Game 
