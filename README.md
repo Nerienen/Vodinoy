@@ -1,7 +1,7 @@
  
 <img src="https://imgur.com/DtkFzab.png" height="500px">
 
-# Vodinoy
+
 Slavic Themed Horror Game 
 
 
