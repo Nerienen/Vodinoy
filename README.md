@@ -1,9 +1,5 @@
  
-
-<img
-  src="[/path/to/img.jpg](https://imgur.com/DtkFzab.png)"
-
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+!(https://imgur.com/DtkFzab.png)
 
 # Vodinoy
 Slavic Themed Horror Game 
