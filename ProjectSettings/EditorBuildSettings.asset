@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuSwamp 1.unity
+    guid: ddeeee5f745e5b04686dcdc09b8d5c9b
+  - enabled: 1
+    path: Assets/Scenes/Swamp.unity
+    guid: 3db1837cc97a95e4c98610966fac2b0b
+  - enabled: 1
+    path: Assets/Scenes/Heaven.unity
+    guid: 0cd8e07606f79464887829757eb50608
+  - enabled: 1
+    path: Assets/Scenes/Hell.unity
+    guid: 6858578d5c55fce4d8c8a5955be97f61
+  m_configObjects: {}

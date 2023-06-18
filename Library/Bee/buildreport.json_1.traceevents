@@ -1,0 +1,623 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677822630094689, "dur": 3447930, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822630094961, "dur": 1882, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822630096845, "dur": 29844, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822630126692, "dur": 217783, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822630344478, "dur": 3196852, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822633541333, "dur": 1283, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822633543125, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677822630231953, "dur": 99265, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677822630232838, "dur": 44319, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677822630317731, "dur": 3784, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677822630321518, "dur": 9693, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677822630322116, "dur": 8536, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677822630335337, "dur": 1157, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677822630334562, "dur": 1951, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822633543242, "dur": 199, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677822630379414, "dur":1038, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822630380460, "dur":491, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677822630380987, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677822630381001, "dur":355, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677822630381375, "dur":513, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822630381888, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633531758, "dur":311, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532069, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532076, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532077, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532082, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532083, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532088, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532089, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532093, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532094, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532098, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532099, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532103, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532105, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532108, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532110, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532115, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532119, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532120, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532125, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532126, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532130, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532132, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532135, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532149, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633532176, "dur":1134, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677822630381699, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630381902, "dur":1841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630383743, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1677822630383838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630437724, "dur":18079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1677822630455827, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1677822630455884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630478363, "dur":51861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1677822630530246, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1677822630530282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630530288, "dur":10535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1677822630540843, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630541073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630541556, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630542882, "dur":42772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630585658, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630585667, "dur":129470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630715156, "dur":30142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630745301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630745307, "dur":99999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630845325, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630845628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630845633, "dur":70462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630916121, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630916369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630916378, "dur":49899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630966296, "dur":16815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630983118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630983148, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630986736, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630986929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630986936, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630988920, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630989238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630989272, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630990798, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630990957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822630990962, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822630992170, "dur":29611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631021786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631021793, "dur":52060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631073873, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631074090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631074114, "dur":87614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631161743, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631161914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631161919, "dur":86181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631248123, "dur":71711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631319838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631319843, "dur":36700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631356558, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631356844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631356853, "dur":32532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631389413, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631390376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631390383, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677822631394139, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1677822631394159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631394164, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1677822631396199, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677822631396216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631396220, "dur":32463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677822631428708, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677822631428728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631428738, "dur":224372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677822631653143, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1677822631653168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677822631653176, "dur":95713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1677822631748911, "dur":1782874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630381671, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630381895, "dur":1834, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630383737, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677822630383742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630384601, "dur":270, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677822630384874, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677822630384896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630385271, "dur":38051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677822630423325, "dur":4773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677822630428102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630436831, "dur":18944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677822630455793, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1677822630455824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630455831, "dur":335622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1677822630791470, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822630791657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630791666, "dur":116661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822630908356, "dur":23975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822630932340, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822630932354, "dur":45010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822630977389, "dur":29159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631006552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631006561, "dur":11050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631017636, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631018524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631018885, "dur":55013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631073920, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631074083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631074088, "dur":87555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631161660, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631161827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631161834, "dur":86274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631248135, "dur":119154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631367295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631367304, "dur":22493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631389817, "dur":5297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631395118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631395124, "dur":20582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677822631415725, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1677822631415741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631415745, "dur":223920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1677822631639683, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677822631639701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631639710, "dur":47970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677822631687702, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1677822631687721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677822631687726, "dur":61145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1677822631748894, "dur":1782857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630381689, "dur":208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630381898, "dur":1836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630383738, "dur":18301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1677822630402044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630436821, "dur":15957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1677822630452797, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1677822630452831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630455175, "dur":74932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1677822630530126, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1677822630530165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630530170, "dur":121498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1677822630651689, "dur":29018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630680712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630680719, "dur":34616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630715348, "dur":56516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630771868, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630771876, "dur":128317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630900208, "dur":20456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630920670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630920679, "dur":46753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630967453, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630967589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630967593, "dur":17810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630985421, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630985608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822630985616, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822630988837, "dur":36364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631025207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822631025217, "dur":48838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631074076, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631074275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822631074280, "dur":87547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631161848, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631162424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822631162428, "dur":114133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631276584, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631276779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822631276788, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631278475, "dur":157022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631435503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822631435519, "dur":252366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677822631687903, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677822631687919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677822631687923, "dur":61032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677822631749027, "dur":1782745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630381715, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630381906, "dur":1830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630383737, "dur":7206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677822630390946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630436545, "dur":93301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677822630529865, "dur":11008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677822630540877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630540885, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677822630542212, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630542388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630542525, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630544025, "dur":24327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630568355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630568361, "dur":145744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630714122, "dur":27851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630741987, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630742004, "dur":102209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630844241, "dur":1676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630845920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630845925, "dur":70176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630916122, "dur":25867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630941993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630942000, "dur":34811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630976832, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630977141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822630977146, "dur":8884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822630986047, "dur":29263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631015314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631015321, "dur":24665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631040003, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631040227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631040251, "dur":47168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631087436, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631087648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631087653, "dur":89986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631177654, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631177818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631177821, "dur":99507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631277342, "dur":37843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631315189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631315196, "dur":41196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631356414, "dur":145011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631501429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631501436, "dur":186840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677822631688299, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1677822631688318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677822631688322, "dur":60595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1677822631748938, "dur":1782842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630381736, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630381909, "dur":1822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630383738, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":5, "ts":1677822630383998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630421843, "dur":30940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":5, "ts":1677822630452798, "dur":5840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1677822630458642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630458649, "dur":71405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1677822630530075, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1677822630530117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630530124, "dur":10551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1677822630540698, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1677822630540761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630540766, "dur":358639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1677822630899431, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822630899654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630899661, "dur":24649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822630924332, "dur":24963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822630949298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822630949302, "dur":28422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822630977741, "dur":32260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631010008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822631010018, "dur":9013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631019051, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631019300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822631019306, "dur":54743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631074068, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631074266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822631074271, "dur":87551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631161847, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631162291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822631162296, "dur":114060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631276387, "dur":159356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631435746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822631435772, "dur":252993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677822631688786, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1677822631688803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677822631688808, "dur":60727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1677822631749555, "dur":1782208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630381760, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630381913, "dur":1819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630383738, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":6, "ts":1677822630383818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630385702, "dur":158203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":6, "ts":1677822630543925, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630544113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630544119, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630546743, "dur":26409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630573157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630573166, "dur":140948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630714133, "dur":30499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630744638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630744648, "dur":100377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630845041, "dur":15377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630860422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630860429, "dur":63904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630924356, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630924825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630924834, "dur":51380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630976236, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630976443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630976449, "dur":9413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630985880, "dur":1299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630987199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822630987205, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822630990422, "dur":94330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631084756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631084763, "dur":92298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631177079, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631177458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631177464, "dur":99788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631277269, "dur":36238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631313514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631313525, "dur":42987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631356532, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631357914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631357921, "dur":32587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631390529, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631391044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631391050, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677822631393840, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1677822631394057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631394564, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1677822631395894, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1677822631395920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631395924, "dur":19777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1677822631415720, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677822631415735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631415740, "dur":236278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677822631652062, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677822631652094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677822631652110, "dur":38060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677822631690193, "dur":1841561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630381781, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630381917, "dur":1816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630383738, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":7, "ts":1677822630383796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630385528, "dur":157435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":7, "ts":1677822630542986, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630543229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630543235, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630544332, "dur":33299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630577636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630577643, "dur":137220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630714880, "dur":48899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630763783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630763791, "dur":144392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630908223, "dur":33650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630941878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822630941887, "dur":35426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822630977330, "dur":24786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631002123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631002132, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631004163, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631004374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631004382, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631006164, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631006649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631006654, "dur":11947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631018621, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631018876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631018883, "dur":54936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631073843, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631074021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631074028, "dur":87445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631161487, "dur":2700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631164189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631164193, "dur":112673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631276889, "dur":68958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631345852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631345862, "dur":11061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631356938, "dur":107037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631463981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631463990, "dur":224511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677822631688518, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1677822631688539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677822631688543, "dur":1843156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1677822633531721, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1677822633531725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630381804, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630381920, "dur":1818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630383740, "dur":7286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1677822630391028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630436536, "dur":93239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1677822630529800, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1677822630530094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630530202, "dur":10602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1677822630540824, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/UnityPlayer.so" }}
+,{ "pid":12345, "tid":8, "ts":1677822630540857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630540860, "dur":203889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/UnityPlayer.so" }}
+,{ "pid":12345, "tid":8, "ts":1677822630744773, "dur":20650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630765427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630765433, "dur":141994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630907454, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630907671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630907680, "dur":18547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630926249, "dur":22987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630949239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630949244, "dur":28073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630977331, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630977637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822630977642, "dur":8977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822630986638, "dur":31153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631017795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822631017804, "dur":36368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631054190, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631054388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822631054394, "dur":77816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631132228, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631132355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822631132359, "dur":114500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631246904, "dur":70397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631317304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822631317309, "dur":39148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631356476, "dur":39900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631396380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822631396386, "dur":19668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677822631416076, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1677822631416093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677822631416098, "dur":468119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1677822631884232, "dur":1647521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630381822, "dur":101, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630381923, "dur":1812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630383738, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1677822630383806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630437685, "dur":91815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1677822630529532, "dur":10381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1677822630539919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630539929, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1677822630541269, "dur":25108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630566382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630566390, "dur":147538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630713951, "dur":31118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630745072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630745078, "dur":100109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630845206, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630845394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630845399, "dur":63167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630908584, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630908761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630908767, "dur":57504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630966292, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630966534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822630966539, "dur":18207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822630984783, "dur":33237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631018024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631018031, "dur":54740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631072787, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631072922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631072938, "dur":88290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631161247, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631161461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631161467, "dur":86336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631247827, "dur":43531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631291364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631291373, "dur":64589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631355984, "dur":4001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631359991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631360003, "dur":32813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677822631392835, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":9, "ts":1677822631392854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631393170, "dur":22113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":9, "ts":1677822631415309, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677822631415331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631415343, "dur":224260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677822631639636, "dur":1846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1677822631641488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631641496, "dur":46179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1677822631687699, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677822631687720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677822631687726, "dur":61262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677822631749007, "dur":1782770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630381842, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630381927, "dur":1812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630383739, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1677822630383800, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630436210, "dur":355260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1677822630791485, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630791666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630791670, "dur":115700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630907425, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630907716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630907719, "dur":17028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630924767, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630925038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630925043, "dur":51148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630976213, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630976422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822630976431, "dur":9424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822630985874, "dur":28659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631014537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822631014544, "dur":25747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631040310, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631040651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822631040654, "dur":91462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631132136, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631132278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822631132284, "dur":114581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631246910, "dur":201478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631448393, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822631448401, "dur":240539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677822631688967, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1677822631689218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677822631689224, "dur":60075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1677822631749318, "dur":1782450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630381864, "dur":66, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630381930, "dur":1802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630383737, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":11, "ts":1677822630383798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630385713, "dur":144691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":11, "ts":1677822630530424, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1677822630530459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630530586, "dur":94596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1677822630625209, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630625363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630625367, "dur":88787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630714169, "dur":32292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630746464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630746486, "dur":98669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630845173, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630845348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630845356, "dur":63219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630908596, "dur":23847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630932447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630932456, "dur":44386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630976855, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630977005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822630977011, "dur":8858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822630985889, "dur":28554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631014451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631014463, "dur":25360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631039848, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631040038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631040044, "dur":34364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631074425, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631074590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631074595, "dur":102055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631176670, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631176872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631176902, "dur":99969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631276895, "dur":83560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631360460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631360466, "dur":29170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631389659, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631389938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631389947, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631392021, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631392221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631392227, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677822631394841, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1677822631394858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631394863, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1677822631396698, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1677822631396714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631396718, "dur":242753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1677822631639499, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1677822631639710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631639716, "dur":47722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1677822631687468, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1677822631687490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677822631687500, "dur":60642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1677822631748182, "dur":1783570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630381880, "dur":53, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630381933, "dur":1804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630383737, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677822630383832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630436445, "dur":93486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677822630529961, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1677822630530002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630530133, "dur":314539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1677822630844696, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822630845244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630845358, "dur":78735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822630924130, "dur":24852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822630948987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822630948995, "dur":28622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822630977640, "dur":54230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631031874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822631031879, "dur":42318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631074223, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631074424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822631074428, "dur":102198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631176652, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631177560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822631177565, "dur":99717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631277296, "dur":101100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631378402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822631378412, "dur":11820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631390255, "dur":151836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631542095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822631542102, "dur":146179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677822631688302, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/E/Desktop/linux build/Vodinoy_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1677822631688327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677822631688331, "dur":69993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/E/Desktop/linux build/Vodinoy_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1677822631758352, "dur":1773406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677822633534568, "dur":1517, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677822633543489, "dur": 821, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677822633543098, "dur": 1240, "ph": "X", "name": "Write chrome-trace events", "args": {} },
