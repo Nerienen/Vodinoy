@@ -51,7 +51,7 @@ Here are some tips to aid you in your journey:
 - Light balls can be accumulated over time, allowing you to carry a significant supply. 
 ## Download and Installation
 
-To experience the chilling world of Vodinoy, download the latest version of the game for your operating system from the [releases page](https://github.com/yourusername/vodinoy/releases/latest). Choose the appropriate file based on your system, and follow the installation instructions provided in the repository.
+To experience the chilling world of Vodinoy, download the latest version of the game for your operating system from the [itch.io page]([https://nerien.itch.io/vodinoy](https://nerien.itch.io/vodinoy)). Choose the appropriate file based on your system.
 
 ## License
 
