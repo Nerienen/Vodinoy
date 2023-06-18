@@ -1,4 +1,4 @@
-![alt text](http://url/to/img.png)
+![Vodinoy](https://imgur.com/DtkFzab)
 
 # Vodinoy
 Slavic Themed Horror Game 
